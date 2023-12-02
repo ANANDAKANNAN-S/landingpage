@@ -1,0 +1,380 @@
+body{
+    background-color: white;
+}
+.header{
+    display:flex;
+    background-color: rgb(43, 42, 42);
+    position: relative;
+  
+}
+
+.logo{
+    margin-left: 410px;
+    width:600px;
+}
+
+.button{
+     margin-left: 60px;
+    background-color: rgb(43, 42, 42);
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.button:hover{
+    color: goldenrod;
+    
+}
+.button1{
+    margin-left:100px;
+    background-color: rgb(43, 42, 42);
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    font-size: x-large;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button1:hover{
+    color: goldenrod;
+    
+}
+
+.button2{
+    margin-left:100px;
+    background-color: rgb(43, 42, 42);
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    font-size: x-large;
+    cursor: pointer;
+    
+}
+
+.button2:hover{
+    color: goldenrod;
+    
+}
+
+.home{
+    margin-bottom: 17px;
+    background: linear-gradient(to right,
+                                rgb(61, 1, 1),
+                                darkred,
+                                red,
+                                goldenrod,
+                                red,
+                                darkred,
+                                rgb(61, 1, 1)
+    );
+}
+
+
+
+
+
+.homeburger{
+    margin-left: 200px;
+    padding-top: 0px;
+    width: 500px;
+    height: 470px;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.homeh1{
+    clear: left;
+    color: white;
+    font-family:poppins;
+    font-weight: 1000px;
+    margin-left: 770px;
+    position: relative;
+    margin-bottom: 0px;
+    padding-top: 0%;
+    margin-top: 0%;
+    animation: slideOut 2s ease-in-out infinite alternate;
+}
+
+.homeh1:hover{
+      color: goldenrod;
+}
+
+.button3{
+    float: right;
+    width:160px;
+    height:70px;
+    cursor:pointer;
+    margin-right:350px;
+    margin-top: -330px;
+    background-color: rgb(133, 0, 0);
+    font-family: sans-serif;
+    font-size: large;
+    color: white;
+    border:none;
+    border-radius: 0%;
+    font-size: x-large;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding : 15.5px;
+    line-height: 21 px;
+    transition: all 0.5s ease-in-out, transform 3s ease-in-out;
+    animation: shapeChange 3s infinite alternate;
+    text-decoration: none;
+
+}
+
+.button3:hover{
+    color: goldenrod;
+    border-radius: 50%;
+    animation: shapeChange 3s infinite alternate;
+}
+
+@keyframes shapeChange {
+    0% {
+        border-radius: 0%;
+    
+    }
+    25%{
+        border-radius: 50%;
+    }
+    50%{
+        border-radius: 0%;
+    }
+    75% {
+        border-radius: 50%;
+        
+    }
+    100%{
+        border-radius: 0%;
+    }
+}
+
+.aboutimg{
+    margin-left: 300px;
+    padding-top: 30px;
+    margin-right: 30px;
+    width: 500px;
+    height: 480px;
+    float: right;
+    margin-bottom: 30px;
+}
+
+.aboutus{  
+    background: linear-gradient(to right,
+                                 black,
+                                 rgb(43, 42, 42),
+                                grey
+    );
+}
+
+.aboutus{
+    margin-top: 25px;
+}
+
+.abouttext{
+    padding: 260px;
+    padding-left: 50px;
+    padding-right: 700px;
+    margin-top: -240px;
+    color: white;
+    font-weight: bolder;
+    font-size:25px;
+    animation: slideIn 2s ease-in-out infinite alternate;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    0% {
+        color:#ff6347; 
+    }
+
+    25% {
+        color:  greenyellow ; 
+        
+    }
+
+    50% {
+        color: #00ced1; 
+        
+    }
+
+    75% {
+        color: #8a2be2; 
+    }
+
+    100% {
+        color: #ff6347; 
+        transform: rotate(360deg);
+    }
+
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:15px;
+    
+}
+
+img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.imgc {
+    position: relative;
+    display: inline-block;
+}
+
+.imgc:hover img,
+.imgc:focus img {
+    transform: scale(1.1);
+}
+
+.image-text {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.offers{
+    margin-bottom: 1px;
+    background: linear-gradient(to right,
+                                rgb(61, 1, 1),
+                                darkred,
+                                red,
+                                goldenrod,
+                                red,
+                                darkred,
+                                rgb(61, 1, 1)
+    );
+}
+
+.offer1{
+    margin-left: 200px;
+    padding-top: 30px;
+    width: 600px;
+    height: 470px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.offer2{
+margin-left: 880px;
+padding-top: 19px;
+width: 600px;
+height: 470px;
+margin-bottom: 30px;
+margin-top: -560px;
+padding-bottom: 30px;
+}
+.offerh1{
+    clear: left;
+    color: white;
+    font-family:poppins;
+    font-size: 50px;
+    font-weight: 1000px;
+    margin-left: 570px;
+    position: relative;
+    margin-bottom: 0px;
+    padding-top: 0%;
+    margin-top: 2%;
+}
+
+.offerp{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 1000px;
+    margin-left: 340px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+
+.offer1 {
+    position: relative;
+    display: inline-block;
+}
+
+
+.offer1:hover img,
+.offer1:focus img {
+    transform: scale(1.1);
+}
+
+.contact{
+    background-color: rgb(43, 42, 42);
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+p.follow{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 1000px;
+    margin-left: 150px;
+    position: relative;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    margin-top: 10px;
+}
+
+
+.followimg{
+        width: 40px; 
+        margin-left:  25px ; 
+        display: inline-block;
+        
+        
+        
+}
+
+.followimg1{
+    margin-left: 100px;
+    width: 40px;
+    display: inline-block;
+}
+
+p.follow1{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 1000px;
+    margin-left: 90px;
+    position: relative;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.logol{
+    margin-left: 950px;
+    width:500px;
+    padding-bottom: 30px;
+    margin-top: -170px;
+}
